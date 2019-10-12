@@ -730,6 +730,10 @@ img {
 
 .price-img {
   display: block;
+  max-width: 370px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 260px;
 }
 
 .price__title {
